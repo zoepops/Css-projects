@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+    
+}
+.head h3{
+    color: white;
+    text-align: center;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.form{
+    background-color:gray ;
+    height: 500px;
+    margin-top: 170px;
+    padding: 80px 0;
+}
+.form1{
+    background-color:rgba(255, 0, 0, 0.607);
+    width: 45%;
+    margin: auto;
+    height: 450px;
+    padding-top: 15px;
+    margin-top: -120px;
+    border-radius: 30px;
+
+}
+.form1 h2{
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+.form1 input{
+    width:100%;
+    padding: 20px;
+    background:none ;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 40px;
+    margin-top: 15px;
+    outline: 0;
+
+}
+.form1 p{
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+.form1 input::placeholder{
+    color: blue;
+}

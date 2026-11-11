@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background:linear-gradient(to left,rgba(128,0,128,0.6),rgba(14, 0, 20, 0.938)),url("../tech4y/church.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position:90% 25%;
+    color: white;
+    padding: 25px 50px;
+} 
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+     align-items:center ;
+}
+.card-row{
+    display: flex;
+    width: 100%;
+}
+.heads,.headss, .headsss{
+    flex: 1;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: larger;
+    margin-top: 1px;
+    border: 1px solid white;
+}
+.heads{
+    background:linear-gradient(rgba(203, 138, 15, 0.107),rgba(240, 186, 8, 0.326)),url(../tech4y/inside.jpg);
+    background-size: cover;
+}
+.headss{
+    background:linear-gradient(rgba(151, 65, 65, 0.575),rgba(124, 174, 50, 0.32)),url(../tech4y/sunday.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+.headsss{
+    background:linear-gradient(rgba(7, 8, 7, 0.495),green),url(../tech4y/giving.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Youth{
+    background:linear-gradient(rgb(160, 18, 18),rgba(36, 30, 30, 0.374)),url(../tech4y/counseling.jpg);
+    width: 66%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding-top: 150px;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 1px;
+    border:1px solid white
+
+}
+.Giving{
+    background: linear-gradient(rgba(255, 192, 203, 0.514),pink),url(../tech4y/youth.jpg);
+    height: 300px;
+    width: 34%;
+    text-align: center;
+    float: left;
+    color:black;
+    padding-top: 150px;
+    background-size: cover;
+    margin-top: 1px;
+    border: 1px solid white;
+}
+        
+
+.head nav{
+    text-align: right;
+    gap: 30px;
+text-decoration-line: none;
+
+
+}
+.head h1{
+    text-align: center;
+  font-size: 60px;
+margin-top: 150px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head .navbars a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.head p{
+    text-align: center;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
